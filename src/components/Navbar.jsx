@@ -18,7 +18,7 @@ function Navbar() {
         </ul>
       </nav>
 
-      {/* Aquí aparece tu información al hacer clic */}
+    
       {mostrarInfo && (
         <div style={{ padding: '20px', background: '#f4f4f4', textAlign: 'center' }}>
           <h2>Sobre Mí</h2>
