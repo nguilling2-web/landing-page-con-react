@@ -1,0 +1,63 @@
+/* Reseteo básico para que no haya márgenes raros */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+
+/* Estilo del Navbar */
+.navbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: #222; 
+  padding: 1rem 2rem; 
+  color: rgba(255, 255, 255, 0.458); 
+}
+
+/* Estilo del contenedor de tarjetas (Flexbox para que sean responsive) */
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Esto es clave: las tarjetas bajan si no hay espacio */
+  padding: 2rem;
+  gap: 20px;
+}
+
+/* Estilo de la tarjeta individual */
+.tarjeta {
+  border: 1px solid #060606;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(8, 8, 8, 0.1);
+  text-align: center;
+}
+
+/* Footer simple */
+footer { background: #d31313; color: white; text-align: center; padding: 1rem; }
+
+/* Diseño Responsive: Si la pantalla es pequeña, el navbar cambia */
+@media (max-width: 600px) {
+  .navbar { flex-direction: column; }
+  .navbar ul { margin-top: 10px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
